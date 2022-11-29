@@ -1,0 +1,518 @@
+body {
+  color: #2c2c2c;
+  font-family: "Roboto";
+}
+
+.wrapper {
+  width: 1728px;
+  height: 1117px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  width: 207px;
+  height: 30px;
+  left: 75px;
+  top: 47px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  color: #a80000;
+}
+
+.search-icon {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 1458px;
+  top: 37px;
+  background: #f1f1f1;
+}
+
+.cart-icon {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 1533px;
+  top: 37px;
+  background: #f1f1f1;
+}
+
+.profile-icon {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 1608px;
+  top: 37px;
+
+  background: #f1f1f1;
+}
+
+.product {
+  position: absolute;
+  width: 96px;
+  height: 28px;
+  left: 473px;
+  top: 43px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.story {
+  position: absolute;
+  width: 50px;
+  height: 26px;
+  left: 613px;
+  top: 43px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.manufacturing {
+  position: absolute;
+  width: 145px;
+  height: 26px;
+  left: 716px;
+  top: 43px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+.packaging {
+  position: absolute;
+  width: 103px;
+  height: 26px;
+  left: 914px;
+  top: 43px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.team {
+  position: absolute;
+  width: 51px;
+  height: 26px;
+  left: 1069px;
+  top: 43px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.design {
+  position: absolute;
+  width: 315px;
+  height: 28px;
+  left: 77px;
+  top: 279px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.steak {
+  position: absolute;
+  width: 795px;
+  height: 129px;
+  left: 76px;
+  top: 307px;
+  font-family: "Port Lligat Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 129px;
+  letter-spacing: -0.03em;
+  color: #a80000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text {
+  position: absolute;
+  width: 747px;
+  height: 82px;
+  left: 76px;
+  top: 459px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+#Medium {
+  box-sizing: border-box;
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 79px;
+  top: 615px;
+  border: 2px solid #d9d9d9;
+}
+
+#medium-radio {
+  position: absolute;
+  width: 78px;
+  height: 26px;
+  left: 126px;
+  top: 618px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+  letter-spacing: -0.03em;
+
+  color: #000000;
+}
+
+#large {
+  box-sizing: border-box;
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  left: 234px;
+  top: 615px;
+  border: 2px solid #d9d9d9;
+}
+
+#large-radio {
+  position: absolute;
+  width: 47px;
+  height: 26px;
+  left: 281px;
+  top: 618px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.cart-backgroud {
+  position: absolute;
+  width: 240px;
+  height: 56px;
+  left: 208px;
+  top: 781px;
+  background: #a80000;
+  box-shadow: 4px 15px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 100px 0px;
+}
+
+.add-to-cart {
+  position: absolute;
+  width: 126px;
+  height: 26px;
+  left: 249px;
+  top: 796px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.book-background {
+  position: absolute;
+  width: 240px;
+  height: 56px;
+  left: 493px;
+  top: 783px;
+  background: #545454;
+  box-shadow: 4px 15px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 100px 0px 0px 0px;
+}
+
+.book-a-table {
+  position: absolute;
+  width: 137px;
+  height: 26px;
+  left: 530px;
+  top: 795px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.black-dot {
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  left: 208px;
+  top: 1045px;
+  border-radius: 25px;
+
+  background: #545454;
+}
+.watch {
+  position: absolute;
+  width: 188px;
+  height: 23px;
+  left: 245px;
+  top: 1051px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.main-dish {
+  position: absolute;
+  width: 721px;
+  height: 721px;
+  left: 932px;
+  top: 125px;
+  filter: drop-shadow(1px 1px 50px rgba(0, 0, 0, 0.3));
+}
+.ball1 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1623px;
+  top: 705px;
+  border-radius: 25px;
+  background-color: #ff1515;
+}
+
+.ball2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1623px;
+  top: 752px;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+}
+
+.ball3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1623px;
+  top: 799px;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+}
+
+.ball4 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1623px;
+  top: 846px;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+}
+
+.empty-box {
+  position: absolute;
+  width: 507px;
+  height: 153px;
+  left: 1039px;
+  top: 910px;
+
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+.discount {
+  position: absolute;
+  width: 163px;
+  height: 21px;
+  left: 1054px;
+  top: 922px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.fish-salad {
+  position: absolute;
+  width: 101px;
+  height: 21px;
+  left: 1161px;
+  top: 970px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.fish-pic {
+  position: absolute;
+  width: 99px;
+  height: 99px;
+  left: 1054px;
+  top: 959px;
+}
+
+.medium-world {
+  position: absolute;
+  width: 55px;
+  height: 16px;
+  left: 1162px;
+  top: 1010px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.fourteen {
+  position: absolute;
+  width: 45px;
+  height: 16px;
+  left: 1363px;
+  top: 979px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.seven {
+  position: absolute;
+  width: 42px;
+  height: 19px;
+  left: 1365px;
+  top: 1002px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.coupon-color {
+  position: absolute;
+  width: 110px;
+  height: 26px;
+  left: 1427px;
+  top: 984px;
+  background-color: #fff500;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+.get-coupon {
+  position: absolute;
+  width: 73px;
+  height: 14px;
+  left: 1446px;
+  top: 990px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.previous {
+  position: absolute;
+  width: 36px;
+  height: 16px;
+  left: 1397px;
+  top: 925px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.next {
+  position: absolute;
+  width: 36px;
+  height: 16px;
+  left: 1458px;
+  top: 925px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.arrow-left {
+  position: relative;
+  height: 13.333333969116211px;
+  width: 13.333333969116211px;
+  left: 323.333374px;
+  top: 15.333374px;
+  border-radius: 0px;
+}
+
+.arrow-right {
+  position: absolute;
+  left: 92.33%;
+  right: -48%;
+  top: 11.33%;
+  bottom: -50%;
+  border-radius: 0px;
+}
