@@ -4,9 +4,14 @@ body {
 }
 
 .wrapper {
-  width: 1728px;
-  height: 1117px;
+  max-width: 1728px;
+  max-height: 1117px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,7 +35,6 @@ h1 {
   height: 35px;
   left: 1458px;
   top: 37px;
-  background: #f1f1f1;
 }
 
 .cart-icon {
@@ -39,7 +43,6 @@ h1 {
   height: 35px;
   left: 1533px;
   top: 37px;
-  background: #f1f1f1;
 }
 
 .profile-icon {
@@ -48,8 +51,6 @@ h1 {
   height: 35px;
   left: 1608px;
   top: 37px;
-
-  background: #f1f1f1;
 }
 
 .product {
@@ -134,7 +135,7 @@ h1 {
   font-family: "Port Lligat Slab";
   font-style: normal;
   font-weight: 400;
-  font-size: 120px;
+  font-size: 80px;
   line-height: 129px;
   letter-spacing: -0.03em;
   color: #a80000;
@@ -156,7 +157,6 @@ h1 {
 }
 
 #Medium {
-  box-sizing: border-box;
   position: absolute;
   width: 31px;
   height: 31px;
@@ -171,21 +171,16 @@ h1 {
   height: 26px;
   left: 126px;
   top: 618px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
   line-height: 26px;
-  /* identical to box height */
-
   letter-spacing: -0.03em;
-
   color: #000000;
 }
 
 #large {
-  box-sizing: border-box;
   position: absolute;
   width: 31px;
   height: 31px;
@@ -254,15 +249,8 @@ h1 {
   font-weight: 800;
   font-size: 22px;
   line-height: 26px;
-  /* identical to box height */
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-
-.wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .black-dot {
@@ -299,6 +287,7 @@ h1 {
   top: 125px;
   filter: drop-shadow(1px 1px 50px rgba(0, 0, 0, 0.3));
 }
+
 .ball1 {
   position: absolute;
   width: 30px;
@@ -378,7 +367,6 @@ h1 {
   font-weight: 800;
   font-size: 16px;
   line-height: 21px;
-  /* identical to box height */
 
   text-transform: uppercase;
 
@@ -515,4 +503,15 @@ h1 {
   top: 11.33%;
   bottom: -50%;
   border-radius: 0px;
+}
+
+.footer {
+  position: absolute;
+  width: 507px;
+  height: 153px;
+  left: 1039px;
+  top: 910px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgb(0 0 0 / 15%);
+  border-radius: 20px;
 }
